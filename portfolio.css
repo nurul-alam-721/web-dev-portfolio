@@ -1,0 +1,90 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 230px;
+}
+
+nav ul{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 18px 35px;
+    border: none;
+}
+
+.bg-img{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.greetings{
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.Name{
+    font-weight:800;
+    font-size: 85px;
+
+}
+#contact{
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 20px;
+}
+.dark-1{
+    color:#181818;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color:#757575;
+}
+#rcolour{
+    color: #FD6E0A;
+}
+.title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.banner-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 37px 0px 230px ;
+}
+.banner-content{
+
+    max-width: 580px;
+}
+.opensansfont{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  #btn-container button{
+    margin-right: 30px;
+  }
+
+  #banner-pic{
+    width: 576px;
+    height: 660px;
+  }
+  
