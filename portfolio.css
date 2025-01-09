@@ -36,7 +36,7 @@ nav ul li{
 }
 .section-head{
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     color:#181818;
     
 }
@@ -167,4 +167,21 @@ main{
 
 .resume-column{
     padding: 30px;
+}
+
+/* footer styles */
+
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+}
+.input-field{
+    margin: 20px 0px;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
 }
