@@ -1,3 +1,10 @@
+.opensansfont{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* nav styels start */
 nav{
     display: flex;
     align-items: center;
@@ -15,7 +22,7 @@ nav ul li{
     margin-right: 51px;
 
 }
-
+/* shared styles start*/
 .btn-primary{
     background-color: #FD6E0A;
     border-radius: 5px;
@@ -24,12 +31,40 @@ nav ul li{
     padding: 18px 35px;
     border: none;
 }
+.bg-colour{
+    background-color: #FFF8F3;
+}
+.section-head{
+    font-weight: bold;
+    font-size: 35px;
+    color:#181818;
+    
+}
 
+.section-description{
+    color: #757575;
+    font-size: 18px;
+
+}
+
+
+.dark-1{
+    color:#181818;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color:#757575;
+}
+/* shared styles end */
 .bg-img{
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+
+/* banner styles start */
 .greetings{
     font-weight: 400;
     font-size: 45px;
@@ -44,17 +79,10 @@ nav ul li{
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
+    font-size: 20px;
 }
-.dark-1{
-    color:#181818;
-}
-.dark-2{
-    color: #474747;
-}
-.dark-3{
-    color:#757575;
-}
+
 #rcolour{
     color: #FD6E0A;
 }
@@ -73,12 +101,7 @@ nav ul li{
 
     max-width: 580px;
 }
-.opensansfont{
-    font-family: "Work Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-  }
+
   #btn-container button{
     margin-right: 30px;
   }
@@ -87,4 +110,61 @@ nav ul li{
     width: 576px;
     height: 660px;
   }
-  
+
+  /* banner styles end */
+main{
+    max-width: 1180px;
+    margin: 0 auto;
+    background-color: white;
+}
+/* section styles */
+.section-1{
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+
+.description-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    color: #757575;
+    font-size: 20px;
+}
+.item-description{
+    color: #474747;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+/* section-2 styles start */
+
+.align-center{
+    text-align: center;
+}
+
+.skills-container{
+    display: flex;
+    gap:25px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* section-2 style end */
+
+/* resume styles start */
+
+.resume{
+    display: flex;
+    gap: 70px;
+}
+
+.resume-column{
+    padding: 30px;
+}
